@@ -18,7 +18,6 @@ In this work, we propose SparseCut, a general & efficient cross-modal fusion arc
 ## Table of Contents
 1. [Installation](#Installation)
 2. [Training&Evaluation](#Training&Evaluation)
-3.
 ---
 
 ## Installation
