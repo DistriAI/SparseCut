@@ -2,11 +2,6 @@
 
 CKPT=./lmsys
 PLAYDATA=./playground/data
-#MODEL_NAME=llava4test
-# 同时启动两个deepspeed 命令会端口冲突
-#--image_aspect_ratio hyres \
-#--include localhost:4 \
-#--master_port 42957 \
 
 deepspeed --master_port 42957 \
     llava/train/train_mem.py \
